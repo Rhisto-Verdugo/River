@@ -3,6 +3,8 @@ import { FaFacebookSquare } from "react-icons/fa"
 import { BsWhatsapp } from "react-icons/bs"
 
 const Footer = () => {
+  const url =
+    "https://api.whatsapp.com/send?phone=526241915600&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n"
   return (
     <div className={footerStyles.footer}>
       <h1>Contacto</h1>
@@ -26,7 +28,7 @@ const Footer = () => {
         <a href='https://www.facebook.com/riveraudiocabo'>
           <FaFacebookSquare className={footerStyles.face} />
         </a>
-        <a>
+        <a href={url} target='blank'>
           <BsWhatsapp className={footerStyles.whats} />
         </a>
       </span>

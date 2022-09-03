@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: Merriweather, sans-serif;
   letter-spacing: 0.8px;
+  line-height: 28px;
 }
 
 p {

@@ -29,7 +29,9 @@ const Servicios = () => {
       <div className={servStyles.servicios}>
         <div>
           <h2>Audio e Iluminación (DJ)</h2>
-          <Image src={audio}></Image>
+          <div className={servStyles.imgWrapper}>
+            <Image src={audio}></Image>
+          </div>
           <p>
             Eleva tu evento a otro nivel con nuestro servicio de luz y sonido,
             para todo tipo de eventos
@@ -37,12 +39,16 @@ const Servicios = () => {
         </div>
         <div>
           <h2>Fotografía y video</h2>
-          <Image src={wedding}></Image>
+          <div className={servStyles.imgWrapper}>
+            <Image src={wedding}></Image>
+          </div>
           <p>Capturamos momentos inolvidables que te acompañarán siempre</p>
         </div>
         <div>
           <h2>Música en vivo</h2>
-          <Image src={music}></Image>
+          <div className={servStyles.imgWrapper}>
+            <Image src={music}></Image>
+          </div>
           <p>
             Da un toque especial a tu evento con música en vivo. Instrumentos:
             Violín, piano, guitarra, violonchelo
@@ -50,7 +56,9 @@ const Servicios = () => {
         </div>
         <div>
           <h2>Iluminación arquitectónica</h2>
-          <Image src={arq}></Image>
+          <div className={servStyles.imgWrapper}>
+            <Image src={arq}></Image>
+          </div>
           <p>
             Ilumina el espacio de tu evento, destaca zonas u objetos específicos
             con los colores de tu elección

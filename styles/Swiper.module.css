@@ -2,6 +2,7 @@
   background-color: #111213ff;
   color: #2f71e8ff;
   text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
 }
 .swiper {
   width: 90%;
@@ -10,6 +11,7 @@
   border-radius: 5px;
   padding-top: 30px;
   padding-bottom: 30px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
 }
 .swiperSlide {
   width: 100%;
@@ -20,6 +22,7 @@
   position: relative;
   padding-bottom: 56.25%;
   overflow: hidden;
+  /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1); */
 }
 
 .frame {
@@ -33,6 +36,7 @@
   height: 100%;
   margin-left: 5%;
   margin-top: 50px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
 }
 
 @media screen and (max-width: 480px) {
