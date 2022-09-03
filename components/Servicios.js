@@ -8,7 +8,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 const Servicios = () => {
   const url =
-    "https://api.whatsapp.com/send?phone=6241915600&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n"
+    "https://api.whatsapp.com/send?phone=526241915600&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n"
   return (
     <div className={servStyles.servWrapper}>
       <h1>Sobre Nosotros</h1>
