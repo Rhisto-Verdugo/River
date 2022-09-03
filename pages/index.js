@@ -57,10 +57,9 @@ export default function Home() {
           loop
           className={swiperStyles.swiper}
         >
-          {photos.map((photo) => {
-            const { i } = photo
+          {photos.map((photo, i) => {
             return (
-              <SwiperSlide className={swiperStyles.swiperSlide}>
+              <SwiperSlide key={i} className={swiperStyles.swiperSlide}>
                 <Image src={photo} layout='fill' objectFit='cover'></Image>
               </SwiperSlide>
             )
@@ -71,9 +70,9 @@ export default function Home() {
         <iframe
           src='https://www.youtube.com/embed/EuRyK_Mpc1s'
           title='YouTube video player'
-          frameborder='0'
+          frameBorder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowfullscreen
+          allowFullScreen
           className={swiperStyles.frame}
         ></iframe>
       </div>
