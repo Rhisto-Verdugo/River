@@ -1,0 +1,44 @@
+.swiperContainer {
+  background-color: #111213ff;
+  color: #2f71e8ff;
+  text-align: center;
+}
+.swiper {
+  width: 90%;
+  height: 100vh;
+  margin: 30px auto 0px auto;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.swiperSlide {
+  width: 100%;
+  height: 100%;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.frame {
+  overflow: hidden;
+  border: 0;
+  align-self: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .swiper {
+    height: 50vh;
+    margin-bottom: 100px;
+    background-color: black;
+  }
+}
